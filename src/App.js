@@ -16,9 +16,9 @@ function App() {
   return (
     <div className="App">
       {user ? (
-          <button onClick={handleLogout}>Sign Out</button>
+          <button class="button" onClick={handleLogout}>Sign Out</button>
         ) : (
-          <button onClick={handleLogin}>Sign In</button>
+          <button class="button" onClick={handleLogin}>Sign In</button>
         )}
      <BrowserRouter>
      <Navigation/>

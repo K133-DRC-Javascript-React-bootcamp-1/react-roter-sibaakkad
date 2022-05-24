@@ -1,11 +1,9 @@
-import * as React from "react";
-
 function NotAuthorized() {
 
   return (
     <>
       <div>
-        <h1>You Are Not Authorized</h1>
+        <h2>You Are Not Authorized</h2>
       </div>
     </>);
 }
